@@ -1,0 +1,5 @@
+name: justGoscha's Realm
+lsi: false
+baseurl: /
+markdown: redcarpet
+pygments: true

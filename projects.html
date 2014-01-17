@@ -1,0 +1,73 @@
+---
+layout: default
+permalink: /projects.html
+---
+
+<div ng-controller="ProjectCtrl">
+	<h1>Projects</h1>
+
+	<h2>Big Projects</h2>
+
+	Here are the projects I put some effort in and that are (more or less) finished and ready for the public audience.
+
+	<section class="projects">
+		<article class="project" ng-repeat="project in projects">
+			<div class="logo-wrap">
+				<a href="{{'{{project.link'}}}}"><img src="{{'{{project.logo'}}}}" alt=""></a>
+			</div>
+			<div class="title-wrapper">
+				<a href="{{'{{project.link'}}}}"><h1 class="title">{{'{{project.name'}}}}</h1></a>
+				<div class="short-description">
+					{{'{{project.short_description'}}}}
+				</div>
+				<span class="tag" ng-repeat="tag in project.tags">
+					{{'{{tag'}}}}
+				</span>
+			</div>
+		</article>
+	</section>
+
+	<h2>Experiments &amp; Little Projects</h2>
+
+	Here are the small projects and experiment that didn't take that long, or are just prototypes or tests of further projects.
+
+	<section class="projects">
+		<article class="project" ng-repeat="project in experiments">
+			<div class="logo-wrap">
+				<a href="{{'{{project.link'}}}}"><img src="{{'{{project.logo'}}}}" alt=""></a>
+			</div>
+			<div class="title-wrapper">
+				<a href="{{'{{project.link'}}}}"><h1 class="title">{{'{{project.name'}}}}</h1></a>
+				<div class="short-description">
+					{{'{{project.short_description'}}}}
+				</div>
+				<span class="tag" ng-repeat="tag in project.tags">
+					{{'{{tag'}}}}
+				</span>
+			</div>
+		</article>
+	</section>
+
+
+	<h2>Other Work</h2>
+
+	Work I did on my previous jobs.
+
+	<section class="projects">
+		<article class="project" ng-repeat="project in work">
+			<div class="logo-wrap">
+				<a href="{{'{{project.link'}}}}"><img src="{{'{{project.logo'}}}}" alt=""></a>
+			</div>
+			<div class="title-wrapper">
+				<a href="{{'{{project.link'}}}}"><h1 class="title">{{'{{project.name'}}}}</h1></a>
+				<div class="short-description">
+					{{'{{project.short_description'}}}}
+				</div>
+				<span class="tag" ng-repeat="tag in project.tags">
+					{{'{{tag'}}}}
+				</span>
+			</div>
+		</article>
+	</section>
+
+</div>

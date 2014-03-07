@@ -10,7 +10,7 @@ tags:
 ---
 
 For my [WatchNext][watchnext] site I wanted to use a more professional and organized approach to implementing features and don't always want to mess with my master branch, when trying out new things and implementing new features.
-So I stumbled upon GitFlow and used these two posts as introduction:
+So I stumbled upon GitFlow and used these two posts as an introduction:
 
 [A Successful Git Branching Model][git-flow1]
 

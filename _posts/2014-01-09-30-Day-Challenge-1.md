@@ -8,22 +8,25 @@ tags:
 - self-improvement
 ---
 
-So I came across those 30-Day-Challenges by listening to a TED talk. It can help you to motivate yourself, get things done and increase your self-confidence through a sense of achievement, when you finally finish your challenge.
+So I came across those 30- Day-Challenges by listening to a TED talk. It's something that can help you to motivate yourself, get things done and increase your self-confidence through a sense of achievement, when you finally finish your challenge.
 
-Challenges can be about things that you always wanted to try or skills that you want to improve. It could be as simple as take a photo every day, or take a walk every day, or write something everyday so by the end of the month you can have a whole novel if you stick with it. 
+
+Challenges can be about things that you always wanted to try or skills that you want to improve. It could be as simple as take a photo every day, or learn a new scale on an instrument, or write something every day so by the end of the month you can have a whole novel if you stick with it. 
 
 
 You can basically do anything, but it would be good to start with simple achievable goals and then later you can do stuff like write a song every day, or a simple game or some artwork.
 
-## My First Challenge: Daily Morning Walks & Drawings
+## My First Challenge: Daily Morning Walks
 
 So I decided to start with something simple:
 I will take a walk every morning for about an hour before I get to work. I don’t get out to often and an occasional Vitamin D boost cannot hurt. Also, this walk should be without music or other distractions on my mind, because there’s usually to little time for me spent on thinking without influence of music and podcasts.
 
 
+## Drawing
 Since I also find walks by itself incredibly boring I want to draw something every day in my sketchbook; be it a church I walk by, some beautiful alley or maybe some bike on the sidewalk, anything I find interesting at the moment. This is good opportunity to refresh my rudimentary drawing skills and also improve on them, what I always aspire to do, but never bring myself to actually do it.
 
 
+## Setting Goals
 In the end of the walk I also want to set my goals for the day:
 
 

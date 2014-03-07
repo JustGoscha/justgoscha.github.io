@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple & straight-forward WebRTC DataChannel establishment"
-date:   2014-03-07 19:58:31
+date:   2014-03-07 15:58:31
 categories: programming
 tags:
 - programming

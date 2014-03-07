@@ -6,6 +6,8 @@
 
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
 @import url(http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
 @import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,400,700);
 
@@ -25,12 +27,13 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   font: 13.34px 'Alegreya', serif;
+  color: #444;
   font-size: 12pt;
   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alegreya', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 100%; 
   line-height: 1.286em;
   margin-top: .286em;
@@ -39,32 +42,35 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
   color: #4C505F;
+  font-weight: 700;
   font-size: 2em;
+  text-rendering: optimizeLegibility;
+
 }
 
 h2{
   color: #4C505F;  
   font-weight: 400;
-  font-style: italic;
+  //font-style: italic;
+
+  text-rendering: optimizeLegibility;
 
   font-size: 1.6em;
+  margin-bottom: 0.1em;
 }
 
-h3,h4,h5,h6{
-  font-size: 1.3em;
-}
-
-h3{
-  color: #4C505F;
-}
-
-h4{
-  color: #4C505F;
-}
-
-h1 { 
+h4,h5,h6{
   font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #4C505F; 
 }
+
+h1      { font-size: 2em;       /* 2*16 = 32 */         }
+h2      { font-size: 1.5em; /*margin-left: 2rem;*/     /* 1.5*16 = 24 */       }
+h3      { font-size: 1.17em; /*margin-left: 4rem;*/   /* 1.17*16 = 18.72 */   }
+h4      { font-size: 1em; /*margin-left: 4rem;*/      /* 1*16 = 16 */         }
+h5      { font-size: 0.83em;    /* 0.83*16 = 13.28 */   }
+h6      { font-size: 0.75em;    /* 0.75*16 = 12 */      }
 
 mark{
   background-color: rgba(255,150,100,0.1);
@@ -76,7 +82,7 @@ ul>li{
   list-style: none;
 }
 
-p { margin: 1em 0; }
+p { margin: 0 0 1em 0; }
 
 q { quotes: '\201C' '\201D' '\2018' '\2019'; }
 
@@ -123,7 +129,7 @@ header{
 
 #header-bottom{
   display: block;
-  background-image: url(/img/bottom.gif);
+  background-image: url(/img/bottom.png);
   background-size: cover;
   height: 1.5em;
 }
@@ -209,7 +215,7 @@ ul.posts span {
   padding: 0 1em;
 
   margin: 0em auto 2em;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .site .header a {
@@ -237,10 +243,6 @@ ul.posts span {
 
 .site .header a.extra:hover {
   color: #000;
-}
-
-.site .meta {
-  color: #aaa;
 }
 
 .site .footer {
@@ -272,6 +274,90 @@ ul.posts span {
 
 /*****************************************************************************/
 /*
+/* Blog
+/*
+/*****************************************************************************/
+
+
+
+.post-header{
+  width: 100%;
+  vertical-align: top;
+  font-size: 0.8em;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.post-image{
+  vertical-align: top;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+
+  //background-image: url(/img/placeholder.png);
+  background-size: cover;
+}
+
+.post-header .meta{
+  display: inline-block;
+  width:78%;
+}
+
+.meta{
+  color: #555;
+  line-height: 1em;
+}
+
+.meta .category {
+  color: #444;
+  font-variant: small-caps;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-weight: 700;
+}
+
+.meta .date{
+  color: #444;
+  font-weight: 700;
+
+}
+
+/*.meta .tag{
+  color: #444;
+}*/
+
+.meta ul{
+  display: inline-block;
+}
+
+.meta ul>li{
+  display: inline-block;
+}
+
+li.tag:after{
+  content: ",";
+}
+
+li.tag:last-child:after{
+  content: ".";
+}
+
+.posts article{
+  border-bottom: 0.1em dashed #aaa;
+  margin-bottom: 1em;
+}
+
+.posts article:last-child{
+  border-bottom: none;
+  margin: none;
+  padding: none;
+}
+
+
+
+/*****************************************************************************/
+/*
 /* Posts
 /*
 /*****************************************************************************/
@@ -281,18 +367,45 @@ ul.posts span {
   line-height: 2.0rem;
 }*/
 
-.post-title{
+.post-header-post{
+  margin-bottom: 1em;
+}
+
+.post-header-post h1.post-title{
   margin-bottom: 0!!important;
+  text-align: center;
+  color: #eca;
+  text-shadow:  0 0.05em #6B6980,
+                0 0.10em #6B6980,
+                0 0.15em #6B6980,
+                0 0.20em 0.2em #6B6980;
+
+  font-size: 2.5em;
+}
+
+article.post{
+  margin-bottom: 2em;
+}
+
+
+
+article.post h1{
+  font-size: 1.5em;
+}
+.post.meta{
+  text-align: center;
+  font-size: 0.8em;
 }
 
 /* standard */
 .post pre {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  font-size: 0.7em;
+  line-height: 1.0rem;
   overflow: auto;
-  border: 1px solid #ddd;
   background-color: #FAF5E4;
-  padding: 0 .4em;
+  margin: 1em 0 1em 0;
+  padding: .4em .4em;/*
+  white-space: pre-wrap;*/
 }
 
 .post ul, .post ol {
@@ -304,13 +417,15 @@ ul.posts span {
 }
 
 .post code {
-  border: 1px solid #ddd;
   background-color: #FAF5E4;
   padding: 0 .2em;
+  font-size: 0.9em;
 }
 
 .post pre code {
   border: none;
+  padding: none;
+  font-size: 1em;
 }
 
 /* terminal */
@@ -324,71 +439,15 @@ ul.posts span {
   background-color: #333;
 }
 
+.comments{
+  margin-top: 1em;
+}
+
 /*****************************************************************************/
 /*
 /* Projects
 /*
 /*****************************************************************************/
-
-/* variant 1 */
-
-/*.projects{
-
-}
-
-.projects .project{
-  display: inline-block;
-  position: relative;
-  margin: 0.5rem;
-  width: 10rem;
-  height: 10rem;
-
-  margin-bottom: 1rem;
-  
-  transition: margin 0.3s ease-in-out;
-}
-
-.projects .project div.logo-wrap{
-  display: inline-block;
-  position: absolute;
-
-  width: 10rem;
-  height: 10rem;
-
-  cursor: pointer;
-}
-
-
-.projects .project .title-wrapper{
-  display: block;
-  width: 100%;
-
-  position: absolute;
-  height: 3.5rem;
-  background-color: #ddd;
-
-  opacity: 0;
-  bottom: 0;
-
-  transition: all 0.3s ease-in-out;
-
-}
-
-.projects .project:hover .title-wrapper{
-
-  opacity: 1;
-  transform: translate(0, 3.5rem);
-}
-
-.projects .project h1{
-  display: block;
-  text-align: center;
-  font-size: 1.8rem;
-}
-*/
-
-
-
 
 .projects{
 
@@ -440,13 +499,22 @@ ul.posts span {
 }
 
 .projects .project h1{
-  font-family: "Alegreya", serif;
+  font-family: "Oswald", serif;
   font-weight: 700;
 
   display: block;
   text-align: center;
   font-size: 1.8rem;
+
+  transition: all 0.3s ease-in-out;
+
 }
+
+
+.projects .project h1:hover{
+  color: #D84839;
+}
+
 
 
 .projects .project .title-wrapper .short-description{
@@ -455,19 +523,18 @@ ul.posts span {
   font-size: 1.0em;
   margin-bottom: 0.2em;
   line-height: 1.3em;
-
 }
 
 .projects .project span.tag{
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: 'Open Sans', Arial, sans-serif;
 
-  font-size: 1.3rem;
+  font-size: 0.7em;
   padding: 0 0.5em;
 
   opacity: 0.0;
   color: #B68A95;
 
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
 
 }
 
@@ -510,7 +577,7 @@ ul.posts span {
   }
 
   .projects .project span.tag{
-    font-size: 1.0rem;
+    font-size: .7em;
   }
 }
 
@@ -689,6 +756,45 @@ ul.social:hover{
 /*****************************************************************************/
 
 footer{
+  height: auto;
+  border-top: 0.1em dashed #B8B0A1;
+}
+
+footer>section{
+  font-size: 100%;
+  //text-align: justify;
+  width:auto;
+  max-width: 45rem;
+
+
+  padding: 0 1.3em;
+  margin: 0 auto;
+  line-height: 2em;
+}
+
+footer a{
+  color: #666;
+  font-weight: 700;
+}
+
+footer a:hover{
+  color: #D64132;
+}
+
+footer ul>li{
+  display: inline-block;
+  margin-right: 1em;
+}
+
+footer div.bottom-nav{
+  float:left;
+}
+
+footer div.follow{
+  float: right;
+}
+
+.copyright{
   text-align: center;
   padding-top: 0.3em;
   line-height: 2.7em;
@@ -698,6 +804,8 @@ footer{
   background-position: center;
   color: #dde;
 }
+
+
 
 footer .emph{
   color: #fff;

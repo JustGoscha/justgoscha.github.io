@@ -1,67 +1,43 @@
 ---
 layout: default
+title: justGoscha's REALM
 ---
-<h1>About me</h1>
 
-<p>
-	Hey, I'm <a href="#" title="pronounce /dʒəst ɡɒʃa/, like... oh my gosh-a" class="tooltip">justGoscha</a>. I'm a programmer mostly working in <mark>front-end web development &amp; UI design</mark>. But I also, don't shy away from back-end development if it's necessary.
-</p>
-<p>
-	I also have a passion for <mark>audio programming &amp; interactive sound design</mark>, especially if it's <mark>binaural</mark>, and aspire to change something in the current state of real-time audio simulation engines in the future. That's why I'm currently studying in the master course <a href="http://www.ak.tu-berlin.de/menue/fachgebiet_audiokommunikation/parameter/en/" title="course page on the TU Berlin website"><q>Audio Communication and Technology</q></a> at the <mark>Technical University of Berlin</mark>. 
-</p>
-
-<p>
-	Furthermore, I have great interest in <mark>game design &amp; development, traditional animation, art &amp; illustration, music making, typography &amp; logo design, binaural field recording and writing</mark>. Pretty much anything where some creativity is involved, makes me happy.
-</p>
-
-<h2>Contact me!</h2>
-
-<p>
-	Interested in working with me, any feedback or suggestions? Write me a <a href="mailto:justgoscha@gmail.com">mail</a> or contact me on <a href="https://plus.google.com/u/0/+GoschaGraf">Google+</a>, because that's the quickest way I see it, when I use Google that day.
-</p>
-
-<h2>Meanwhile in other places of the Internet</h2>
-
-<p>You can also find my profiles on these websites, if you want to see what else I've been doing all around the Internet, probably also on some others. This list will probably keep growing.</p>
-
-<div id="on-the-internet">
-	<ul class="social">
-		<h3>social networks</h3>
-		<li><a href="https://www.facebook.com/justgoscha"><span class="facebook"></span>Facebook</a></li>
-		<li><a href="https://twitter.com/justgoscha"><span class="twitter"></span>Twitter</a></li>
-		<li><a href="https://plus.google.com/u/0/+GoschaGraf"><span class="google"></span>Google+</a></li>
-	  <li><a href="http://www.reddit.com/user/JustGoscha"><span class="reddit"></span>reddit</a></li>
-
-	</ul>
-
-	<ul class="social">
-		<h3>coding sites</h3>
-		<li><a href="http://stackoverflow.com/users/813142/justgoscha"><span class="stackoverflow"></span>Stackoverflow</a></li>
-		<li><a href="https://github.com/justgoscha"><span class="github"></span>Github</a></li>
-		<li><a href=""><span class="coderwall"></span>Coderwall</a></li>
-		<li><a href="http://plnkr.co/users/JustGoscha"><span class="plunkr"></span>Plunkr</a></li>
-	</ul>
-
-	<ul class="social">
-		<h3>art, drawing &amp; design</h3>
-		<li><a href="http://gg-sign.deviantart.com/"><span class="deviantart"></span>DeviantArt</a></li>
-	</ul>
-
-	<ul class="social">
-		<h3>video &amp; sound</h3>
-		<li><a href="https://vimeo.com/user5909575"><span class="vimeo"></span>Vimeo</a></li>
-		<li><a href="http://www.youtube.com/user/TheAureality"><span class="youtube"></span>YouTube</a></li>
-		<li><a href="https://soundcloud.com/justgoscha"><span class="soundcloud"></span>SoundCloud</a></li>
-	</ul>
-
-	<ul class="social">
-	  <h3>social payment</h3>
-	  <li><a href="https://www.gittip.com/JustGoscha/"><span class="gittip"></span>GitTip</a></li>
-	  <li><a href="https://flattr.com/profile/justgoscha"><span class="flattr"></span>Flattr</a></li>
-	</ul>
-
-
-
-
-
+<div id="home">
+  <section class="posts">
+    {% for post in site.posts %}
+      <article>
+      	<div class="post-header">
+      		<div class="post-image">
+      			<img src="img/category/{{post.categories[0]}}.jpg" alt="{{post.categories[0]}}">
+      		</div>
+      		<div class="meta">
+	      		<a href="{{post.url}}"><h1 class="post-title">{{post.title}}</h1></a>
+	      	
+	      		<em>Posted on</em> 
+	      		<span class="date">{{ post.date | date_to_long_string }}</span>
+	      		<em>in</em>
+	      		{% for category in post.categories %}
+	      			<span class="category">{{category}}</span>
+	      		{% endfor %}
+	      		<em>tagged </em>
+	      		<ul>
+	      		{% for tag in post.tags %}
+	      			<li class="tag"><a href="tag/{{tag}}">{{tag}}</a></li>
+	      		{% endfor %}
+	      		</ul>
+	      	</div>
+				</div>
+      	<p>
+  				{% if post.summary != nil %}
+						{{ post.summary }}
+					{% else %}
+						{{post.content | truncatewords:50 | strip_html }}
+  				{% endif %}
+  				<a href="{{ post.url }}">read more &raquo;</a>
+				</p>
+      	
+      </article>
+    {% endfor %}
+  </section>
 </div>

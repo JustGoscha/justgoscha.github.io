@@ -122,7 +122,7 @@ img {
 
 header{
   display: block;
-  height:26em;
+  height:26rem;
   background-image: url(/img/headerback.gif);
   background-size: cover;
 }
@@ -131,18 +131,18 @@ header{
   display: block;
   background-image: url(/img/bottom.png);
   background-size: cover;
-  height: 1.5em;
+  height: 1.5rem;
 }
 
 nav{
   font-size: 115%;
   display: block;
   margin:auto;
-  margin-top: 2em;
+  margin-top: 2rem;
 
   width:auto;
   max-width: 45rem;
-  padding: 0 1em;
+  padding: 0 1rem;
   
   text-align: left;
 }
@@ -154,7 +154,7 @@ nav a{
   font-weight: normal;
 
   border-right: 2px dashed white;
-  padding: 0.25em 1em;
+  padding: 0.4em 1em;
   padding-bottom: 1em;
 
   font-family: 'Amatic SC', cursive;
@@ -168,6 +168,18 @@ nav a:hover{
 
   //box-shadow: -3px 3px #6B6980;
   background-color: rgba(255,255,255,0.2);
+}
+
+@media only screen and (max-width: 540px) {
+  nav{
+    font-size: 90%;
+    margin-top: 2.4rem;
+  }
+
+  #header-bottom{
+    height: 1em;
+  }
+
 }
 
 #logo{
@@ -272,6 +284,11 @@ ul.posts span {
   border: 0;
 }
 
+@media only screen and (max-width: 540px) {
+  .site{
+    font-size: 1em;
+  }
+}
 /*****************************************************************************/
 /*
 /* Blog
@@ -286,8 +303,6 @@ ul.posts span {
   font-size: 0.8em;
   margin-bottom: 0.5rem;
 }
-
-
 
 .post-image{
   vertical-align: top;
@@ -354,6 +369,18 @@ li.tag:last-child:after{
   padding: none;
 }
 
+@media only screen and (max-width: 540px) {
+  .post-image{
+    width: 30%;
+  }
+  .post-header .meta{
+    width: 68%;
+  }
+  .post-header h1{
+    font-size: 1.5em;
+  }
+}
+
 
 
 /*****************************************************************************/
@@ -383,10 +410,15 @@ li.tag:last-child:after{
   font-size: 2.5em;
 }
 
+@media only screen and (max-width: 540px) {
+  .post-header-post h1.post-title{
+    font-size: 2em;
+  }
+}
+
 article.post{
   margin-bottom: 2em;
 }
-
 
 
 article.post h1{
@@ -495,7 +527,6 @@ article.post h1{
   text-align: center;
 
   transition: all 0.3s ease-in-out;
-
 }
 
 .projects .project h1{
@@ -504,7 +535,7 @@ article.post h1{
 
   display: block;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.8em;
 
   transition: all 0.3s ease-in-out;
 
@@ -531,8 +562,12 @@ article.post h1{
   font-size: 0.7em;
   padding: 0 0.5em;
 
+  margin: 0;
+
   opacity: 0.0;
   color: #B68A95;
+
+  line-height: 1em;
 
   transition: opacity 0.1s ease-in-out;
 
@@ -541,18 +576,16 @@ article.post h1{
 .projects .project:hover span.tag{
   opacity: 0.6;
   color: #a64a55;
+  border-radius: 0.1em;
 
 }
 
 .projects .project:hover span.tag:hover{
   opacity: 1;
-  background-image: url(/img/tag.png);
-  background-size: contain;
-  background-repeat:no-repeat;
-  background-position:center; 
+  background-color: #ccc; 
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 720px) {
   .projects .project div.logo-wrap{
     width: 8rem;
     height: 8rem;
@@ -573,12 +606,35 @@ article.post h1{
   .projects .project h1{
     display: block;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1em;
   }
 
   .projects .project span.tag{
     font-size: .7em;
+    line-height: 1em;
+    height: 1em!important;
   }
+}
+
+@media only screen and (max-width: 540px) {
+  .projects .project h1{
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .projects .project h1{
+    font-size: .95em;
+  }
+
+  .projects .project .title-wrapper .short-description{
+    line-height: 1.05em;
+  }
+
+  .projects .project span.tag{
+    display: none;
+  }
+
 }
 
 
@@ -614,7 +670,6 @@ ul.social{
   padding-left: 0.8rem;
   padding-right: 0.8rem;
 
-  //border-top: 0.15em solid #4C505F;
   border-left: 0.5rem solid #4C505F;
 
   border-radius: 0.5rem;

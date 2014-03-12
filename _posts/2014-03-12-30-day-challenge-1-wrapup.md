@@ -17,175 +17,175 @@ At least I'm happy that I continued drawing a little each day, even when I wasn'
 
 <div class="gallery">
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day01_1.jpg" alt="Day 1">
+		<a href="{{site.url}}/img/posts/30drawing/day01_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day01_1.jpg" alt="Day 1"></a>
 		<figcaption>Day 1</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day01_2.jpg" alt="Day 1">
+		<a href="{{site.url}}/img/posts/30drawing/day01_2.jpg"><img src="{{site.url}}/img/posts/30drawing/day01_2.jpg" alt="Day 1"></a>
 		<figcaption>Day 1 - Some playground</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day2_1.jpg" alt="Day 2">
+		<a href="{{site.url}}/img/posts/30drawing/day2_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day2_1.jpg" alt="Day 2"></a>
 		<figcaption>Day 2</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day2_2.jpg" alt="Day 2">
+		<a href="{{site.url}}/img/posts/30drawing/day2_2.jpg"><img src="{{site.url}}/img/posts/30drawing/day2_2.jpg" alt="Day 2"></a>
 		<figcaption>Day 2</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day3_1.jpg" alt="Day 3">
+		<a href="{{site.url}}/img/posts/30drawing/day3_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day3_1.jpg" alt="Day 3"></a>
 		<figcaption>Day 3</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day4_1.jpg" alt="Day 4">
+		<a href="{{site.url}}/img/posts/30drawing/day4_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day4_1.jpg" alt="Day 4"></a>
 		<figcaption>Day 4</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day5_1.jpg" alt="Day 5">
+		<a href="{{site.url}}/img/posts/30drawing/day5_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day5_1.jpg" alt="Day 5"></a>
 		<figcaption>Day 5</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day6_1.jpg" alt="Day 6">
+		<a href="{{site.url}}/img/posts/30drawing/day6_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day6_1.jpg" alt="Day 6"></a>
 		<figcaption>Day 6</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day6_2.jpg" alt="Day 6">
+		<a href="{{site.url}}/img/posts/30drawing/day6_2.jpg"><img src="{{site.url}}/img/posts/30drawing/day6_2.jpg" alt="Day 6"></a>
 		<figcaption>Day 6</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day6_3.jpg" alt="Day 6">
+		<a href="{{site.url}}/img/posts/30drawing/day6_3.jpg"><img src="{{site.url}}/img/posts/30drawing/day6_3.jpg" alt="Day 6"></a>
 		<figcaption>Day 6</figcaption>
 	</figure>
 	<figure class="semi">
-		<img src="{{site.url}}/img/posts/30drawing/day7_1.jpg" alt="Day 7">
+		<a href="{{site.url}}/img/posts/30drawing/day7_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day7_1.jpg" alt="Day 7"></a>
 		<figcaption>Day 7</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day8_1.jpg" alt="Day 8">
+		<a href="{{site.url}}/img/posts/30drawing/day8_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day8_1.jpg" alt="Day 8"></a>
 		<figcaption>Day 8</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day8_2.jpg" alt="Day 8">
+		<a href="{{site.url}}/img/posts/30drawing/day8_2.jpg"><img src="{{site.url}}/img/posts/30drawing/day8_2.jpg" alt="Day 8"></a>
 		<figcaption>Day 8</figcaption>
 	</figure>
 	<figure class="semi">
-		<img src="{{site.url}}/img/posts/30drawing/day8_3.jpg" alt="Day 8">
+		<a href="{{site.url}}/img/posts/30drawing/day8_3.jpg"><img src="{{site.url}}/img/posts/30drawing/day8_3.jpg" alt="Day 8"></a>
 		<figcaption>Day 8</figcaption>
 	</figure>
 	<figure class="semi">
-		<img src="{{site.url}}/img/posts/30drawing/day9_1.jpg" alt="Day 9">
+		<a href="{{site.url}}/img/posts/30drawing/day9_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day9_1.jpg" alt="Day 9"></a>
 		<figcaption>Day 9</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day10_1.jpg" alt="Day 10">
+		<a href="{{site.url}}/img/posts/30drawing/day10_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day10_1.jpg" alt="Day 10"></a>
 		<figcaption>Day 10</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day11_1.jpg" alt="Day 11">
+		<a href="{{site.url}}/img/posts/30drawing/day11_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day11_1.jpg" alt="Day 11"></a>
 		<figcaption>Day 11</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day12_1.jpg" alt="Day 12">
+		<a href="{{site.url}}/img/posts/30drawing/day12_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day12_1.jpg" alt="Day 12"></a>
 		<figcaption>Day 12</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day13_1.jpg" alt="Day 13">
+		<a href="{{site.url}}/img/posts/30drawing/day13_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day13_1.jpg" alt="Day 13"></a>
 		<figcaption>Day 13</figcaption>
 	</figure>
 	<figure class="semi">
-		<img src="{{site.url}}/img/posts/30drawing/day14_1.jpg" alt="Day 14">
+		<a href="{{site.url}}/img/posts/30drawing/day14_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day14_1.jpg" alt="Day 14"></a>
 		<figcaption>Day 14</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day15_1.jpg" alt="Day 15">
+		<a href="{{site.url}}/img/posts/30drawing/day15_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day15_1.jpg" alt="Day 15"></a>
 		<figcaption>Day 15</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day16_1.jpg" alt="Day 16">
+		<a href="{{site.url}}/img/posts/30drawing/day16_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day16_1.jpg" alt="Day 16"></a>
 		<figcaption>Day 16</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day17_1.jpg" alt="Day 17">
+		<a href="{{site.url}}/img/posts/30drawing/day17_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day17_1.jpg" alt="Day 17"></a>
 		<figcaption>Day 17</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day18_1.jpg" alt="Day 18">
+		<a href="{{site.url}}/img/posts/30drawing/day18_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day18_1.jpg" alt="Day 18"></a>
 		<figcaption>Day 18</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day19_1.jpg" alt="Day 19">
+		<a href="{{site.url}}/img/posts/30drawing/day19_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day19_1.jpg" alt="Day 19"></a>
 		<figcaption>Day 19</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day20_1.jpg" alt="Day 20">
+		<a href="{{site.url}}/img/posts/30drawing/day20_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day20_1.jpg" alt="Day 20"></a>
 		<figcaption>Day 20</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day21_1.jpg" alt="Day 21">
+		<a href="{{site.url}}/img/posts/30drawing/day21_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day21_1.jpg" alt="Day 21"></a>
 		<figcaption>Day 21</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day22_1.jpg" alt="Day 22">
+		<a href="{{site.url}}/img/posts/30drawing/day22_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day22_1.jpg" alt="Day 22"></a>
 		<figcaption>Day 22</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day23_1.jpg" alt="Day 23">
+		<a href="{{site.url}}/img/posts/30drawing/day23_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day23_1.jpg" alt="Day 23"></a>
 		<figcaption>Day 23</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day24_1.jpg" alt="Day 24">
+		<a href="{{site.url}}/img/posts/30drawing/day24_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day24_1.jpg" alt="Day 24"></a>
 		<figcaption>Day 24</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day25_1.jpg" alt="Day 25">
+		<a href="{{site.url}}/img/posts/30drawing/day25_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day25_1.jpg" alt="Day 25"></a>
 		<figcaption>Day 25</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day26_1.jpg" alt="Day 26">
+		<a href="{{site.url}}/img/posts/30drawing/day26_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day26_1.jpg" alt="Day 26"></a>
 		<figcaption>Day 26</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day27_1.jpg" alt="Day 27">
+		<a href="{{site.url}}/img/posts/30drawing/day27_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day27_1.jpg" alt="Day 27"></a>
 		<figcaption>Day 27</figcaption>
 	</figure>
 	<figure class="semi">
-		<img src="{{site.url}}/img/posts/30drawing/day28_1.jpg" alt="Day 28">
+		<a href="{{site.url}}/img/posts/30drawing/day28_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day28_1.jpg" alt="Day 28"></a>
 		<figcaption>Day 28 - Schillerpark</figcaption>
 	</figure>
 	<figure class="full">
-		<img src="{{site.url}}/img/posts/30drawing/day28_2.jpg" alt="Day 28">
+		<a href="{{site.url}}/img/posts/30drawing/day28_2.jpg"><img src="{{site.url}}/img/posts/30drawing/day28_2.jpg" alt="Day 28"></a>
 		<figcaption>Day 28 - Schillerpark</figcaption>
 	</figure>
 	<figure class="full">
-		<img src="{{site.url}}/img/posts/30drawing/day29_1.jpg" alt="Day 29">
+		<a href="{{site.url}}/img/posts/30drawing/day29_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day29_1.jpg" alt="Day 29"></a>
 		<figcaption>Day 29</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day31_1.jpg" alt="Day 31">
+		<a href="{{site.url}}/img/posts/30drawing/day31_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day31_1.jpg" alt="Day 31"></a>
 		<figcaption>Day 31</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day32_1.jpg" alt="Day 32">
+		<a href="{{site.url}}/img/posts/30drawing/day32_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day32_1.jpg" alt="Day 32"></a>
 		<figcaption>Day 32</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day33_1.jpg" alt="Day 33">
+		<a href="{{site.url}}/img/posts/30drawing/day33_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day33_1.jpg" alt="Day 33"></a>
 		<figcaption>Day 33 - TU Berlin</figcaption>
 	</figure>
 	<figure class="full">
-		<img src="{{site.url}}/img/posts/30drawing/day34_1.jpg" alt="Day 34">
+		<a href="{{site.url}}/img/posts/30drawing/day34_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day34_1.jpg" alt="Day 34"></a>
 		<figcaption>Day 34 - TU Berlin</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day34_3.jpg" alt="Day 34">
+		<a href="{{site.url}}/img/posts/30drawing/day34_3.jpg"><img src="{{site.url}}/img/posts/30drawing/day34_3.jpg" alt="Day 34"></a>
 		<figcaption>Day 34</figcaption>
 	</figure>
 	<figure>
-		<img src="{{site.url}}/img/posts/30drawing/day35_1.jpg" alt="Day 35">
+		<a href="{{site.url}}/img/posts/30drawing/day35_1.jpg"><img src="{{site.url}}/img/posts/30drawing/day35_1.jpg" alt="Day 35"></a>
 		<figcaption>Day 35</figcaption>
 	</figure>
 	<figure class="full">
-		<img src="{{site.url}}/img/posts/30drawing/day35_2.jpg" alt="Day 35">
+		<a href="{{site.url}}/img/posts/30drawing/day35_2.jpg"><img src="{{site.url}}/img/posts/30drawing/day35_2.jpg" alt="Day 35"></a>
 		<figcaption>Day 35</figcaption>
 	</figure>
 </div>

@@ -1,6 +1,6 @@
 name: justGoscha's Realm
 description: "A blog about programming, illustration, game development, animation, sound, life.... & lack of focus!"
-url: http://justgoscha.github.io
+url: http://localhost:4000
 lsi: false
 baseurl: /
 markdown: redcarpet

@@ -1,6 +1,7 @@
 # Jekyll
 _site
 _drafts
+_config.yml
 
 # OS generated files #
 ######################

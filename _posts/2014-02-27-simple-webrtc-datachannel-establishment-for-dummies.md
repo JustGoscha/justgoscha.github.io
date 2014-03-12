@@ -12,8 +12,9 @@ tags:
 summary: "As I stumbled through the Internet trying to find any good tutorial for establishing a DataChannel connection in the Browser, I thought that there were not many good tutorials on this topic. Some old ones, where you didn't knew if they still apply, and some vague ones that were more about P2P video & audio. So I decided to make my own tutorial, just focussing on the DataChannel and make it simple and straight-forward."
 ---
 
-As I stumbled through the Internet trying to find any good tutorial for establishing a DataChannel connection in the Browser, I thought that there were not many good tutorials on this topic. Some old ones, where you didn't knew if they still apply, and some vague ones that were more about P2P video & audio. So I decided to make my own tutorial, just focussing on the DataChannel and make it simple and straight-forward.
+![Data Channel](/img/posts/datachannel/dc.jpg)
 
+As I stumbled through the Internet trying to find any good tutorial for establishing a DataChannel connection in the Browser, I thought that there were not many good tutorials on this topic. Some old ones, where you didn't knew if they still apply, and some vague ones that were more about P2P video & audio. So I decided to make my own tutorial, just focussing on the DataChannel and make it simple and straight-forward.
 
 # Prerequisites
 

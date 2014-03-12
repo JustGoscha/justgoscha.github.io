@@ -1,7 +1,7 @@
 name: justGoscha's Realm
 description: "A blog about programming, illustration, game development, animation, sound, life.... & lack of focus!"
-url: http://justgoscha.github.io
+url: http://justgoscha.github.io/
 lsi: false
-baseurl: http://justgoscha.github.io/
+baseurl: /
 markdown: redcarpet
 pygments: true

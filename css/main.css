@@ -493,8 +493,7 @@ article.post h1{
 }
 
 
-
-.post .gallery figure figcaption{
+figure figcaption{
   font-size: 0.9em;
   font-style: italic;  
   text-align: right;
@@ -574,7 +573,7 @@ article.post h1{
 
   display: block;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.5em;
 
   transition: all 0.3s ease-in-out;
 

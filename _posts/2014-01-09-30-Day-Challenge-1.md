@@ -8,7 +8,7 @@ tags:
 - self-improvement
 ---
 
-So I came across those 30-Day-Challenges by [listening to a TED talk][https://www.youtube.com/watch?v=JnfBXjWm7hc]. It's something that can help you to motivate yourself, get things done and increase your self-confidence through a sense of achievement, when you finally finish your challenge.
+So I came across those 30-Day-Challenges by [listening to a TED talk][TED]. It's something that can help you to motivate yourself, get things done and increase your self-confidence through a sense of achievement, when you finally finish your challenge.
 
 
 Challenges can be about things that you always wanted to try or skills that you want to improve. It could be as simple as take a photo every day, or learn a new scale on an instrument, or write something every day so by the end of the month you can have a whole novel if you stick with it. 
@@ -47,3 +47,5 @@ I can do it! *chanting*
 
 Peace out,
 Thursday, 09.01.2014
+
+[TED]: https://www.youtube.com/watch?v=JnfBXjWm7hc

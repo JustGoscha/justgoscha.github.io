@@ -9,7 +9,7 @@ tags:
 - drawings
 ---
 
-I completed my first 30-Day-Challenge, although I didn't make all the points on my checklist. The daily moring walks worked out in the beginning, but when it got colder, -10°C and such, my hands began to freeze of so I paused the going out but continued to draw inside. As soon as it got warmer I was going out again though.
+I completed [my first 30-Day-Challenge][30dc], although I didn't make all the points on my checklist. The daily moring walks worked out in the beginning, but when it got colder, -10°C and such, my hands began to freeze of so I paused the going out but continued to draw inside. As soon as it got warmer I was going out again though.
 
 The same happened with the goal setting, I was setting goals in the beginning and it was working quite well, but then later stuff at work came up and I wasn't really focussed on my personal workflow... but actually this is probably just an excuse. 
 
@@ -189,3 +189,5 @@ At least I'm happy that I continued drawing a little each day, even when I wasn'
 		<figcaption>Day 35</figcaption>
 	</figure>
 </div>
+
+[30dc]:{{site.url}}/journal/2014/01/09/30-Day-Challenge-1.html

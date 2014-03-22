@@ -28,11 +28,11 @@ title: justGoscha's REALM
 	      		</ul>
 	      	</div>
 				</div>
-      	<p>
+      	<p class="post">
   				{% if post.summary != nil %}
 						{{ post.summary }}
 					{% else %}
-						{{post.content | truncatewords:50 | strip_html }}
+						{{post.content | truncatewords: 50 | strip_html }}
   				{% endif %}
   				<a href="{{ post.url }}">read more &raquo;</a>
 				</p>

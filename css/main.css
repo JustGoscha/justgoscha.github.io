@@ -428,7 +428,7 @@ article.post h1{
 }
 
 /* standard */
-.post pre {
+pre {
   font-size: 0.7em;
   line-height: 1.0rem;
   overflow: auto;
@@ -446,26 +446,27 @@ article.post h1{
   list-style: square;
 }
 
-.post code {
+code {
   background-color: #FAF5E4;
   padding: 0 .2em;
   font-size: 0.9em;
 }
 
-.post pre code {
+pre code {
   border: none;
   padding: none;
+  padding: 0;
   font-size: 1em;
 }
 
 /* terminal */
-.post pre.terminal {
+pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-.post pre.terminal code {
+pre.terminal code {
   background-color: #333;
 }
 

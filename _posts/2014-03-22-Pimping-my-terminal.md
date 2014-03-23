@@ -54,6 +54,8 @@ elif infocmp xterm-256color >/dev/null 2>&1; then
 	export TERM=xterm-256color
 fi
 
+
+# setting the colors
 if tput setaf 1 &> /dev/null; then
 	tput sgr0
 	if [[ $(tput colors) -ge 256 ]] 2>/dev/null; then
@@ -101,7 +103,7 @@ export PS1="\[${BOLD}${MAGENTA}\]\u \[$WHITE\]at \[$ORANGE\]\h \[$WHITE\]in \[$G
 export PS2="\[$ORANGE\]→ \[$RESET\]"
 ```
 
-So now I the shell looks good, at least on the first glance. In the following posts I will be adding to its functionality.
+So now the shell looks good, at least on the first glance. In the following posts I will be adding to its functionality.
 
 [paul]: https://www.youtube.com/watch?v=vDbbz-BdyYc
 [coderwall]: https://coderwall.com/p/oqtj8w

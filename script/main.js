@@ -18,7 +18,7 @@ app.factory('Projects', function(){
 			link: 'http://watch-next.herokuapp.com',
 			alternative_links: [],
 			images: [],
-			tags: ['web', 'design', 'html', 'css', 'javascript'],
+			tags: ['web', 'design', 'html/css', 'javascript','REST'],
 			short_description: "Browse new Movie Releases by Genre, Rating or everything else!"
 		},
 		{
@@ -39,7 +39,7 @@ app.factory('Projects', function(){
 			link: 'http://justgoscha.github.io/allmighty-autocomplete/',
 			alternative_links: [],
 			images: [],
-			tags: ['web', 'angularjs', 'html', 'javascript'],
+			tags: ['web', 'angularjs', 'html/css', 'javascript'],
 			short_description: "An AngularJS directive for autocompletion."
 		},
 		{
@@ -71,6 +71,15 @@ app.factory('Projects', function(){
 			images: [],
 			tags: ['webrtc', 'angularjs', 'html', 'javascript'],
 			short_description: "A Conferencing Client in the browser with modular features, like Map Sharing and Overlay Drawing."
+		},
+		{
+			name: 'Bachelor Thesis',
+			logo: '/img/projects/bachelor.png',
+			link: '/resources/BachelorThesisGeorgGraf.pdf',
+			alternative_links: ['https://www.researchgate.net/publication/257654648_Enabling_Browser-Based_Real-Time_Communication_for_Future_Internet_Services_WebRTC_and_OAuth_Capabilities_for_FOKUS_Broker'],
+			images: [],
+			tags: ['webrtc', 'oauth', 'javascript', 'java', 'sip'],
+			short_description: "Enabling Browser-Based Real-Time Communication for Future Internet Services - WebRTC and OAuth Capabilities"
 		}
 	];
 

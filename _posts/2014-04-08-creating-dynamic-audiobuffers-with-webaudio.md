@@ -82,4 +82,4 @@ Now I is not hard to imagine that even software like Audacity could be build in 
 
 [plunk]: http://run.plnkr.co/plunks/vS2eUt/
 [gist]: https://gist.github.com/JustGoscha/10104318
-[exp]: /experiments/wavcreator/
+[exp]: {{site.url}}/experiments/wavcreator/

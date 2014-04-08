@@ -43,13 +43,22 @@ app.factory('Projects', function(){
 			short_description: "An AngularJS directive for autocompletion."
 		},
 		{
-			name: 'WebAudio Experiment 1',
+			name: 'WebAudio Binaural Positioning',
 			logo: '/img/projects/webaudio1.png',
 			link: '/experiments/webaudio1/',
 			alternative_links: [],
 			images: [],
 			tags: ['audio', 'webaudio', 'javascript'],
 			short_description: "Listener positioning with WebAudio in 3D space and dynamical addition and movement of sound sources."
+		},
+		{
+			name: 'WebAudio - Wavegenerator',
+			logo: '/img/projects/wavcreator.png',
+			link: '/experiments/wavcreator/',
+			alternative_links: [],
+			images: [],
+			tags: ['audio', 'webaudio', 'html5', 'javascript'],
+			short_description: "Draw your own signals and then play them back with the WebAudio API."
 		},
 		{
 			name: 'Collision Detection with SAT',

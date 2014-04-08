@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en-US" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>WebAudio - WavCreator</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+
+</head>
+
+<body class="wide">
+<header>
+  <h1><span class="thin">WebAudio:</span> WavCreator</h1>
+</header>
+
+<div ng-controller="InterfaceCtrl">
+  <div id="control">
+    <button ng-click="SoundService.playSound()">Play/Stop Sound</button> <br>
+    Sample duration (in s): <br>
+    <input ng-model="Configurator.duration" type="text">
+    <br>
+    Loop: <input type="checkbox" ng-model="Configurator.loop">
+
+    <br>
+    <br>
+    <em>Caution with headphones! Might be loud if there is some glitch in the drawing!</em>
+    <br>
+    <br>
+    Tested with Safari and Chrome.
+    <br><br>
+    For sample duration best to use values between 0.0005 and 0.1.
+    You can also play & stop by pressing <span style="font-weight: 800">SPACE</span>
+  </div>
+  <div id="canvas-wrapper">
+    <canvas width="1000" height="400" wavdraw></canvas>
+  </div>
+</div>
+
+
+<footer>
+  made by <a href="http://justgoscha.github.io">justGoscha</a>
+</footer>
+
+
+
+<!-- Script loading -->
+
+<script src="script/main.js"></script>
+
+</body>
+</html>

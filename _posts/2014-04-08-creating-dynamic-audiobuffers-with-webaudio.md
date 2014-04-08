@@ -77,7 +77,7 @@ I also did a little demo application to demonstrate one of many use cases for th
 
 ![WavCreator - Screenshot]({{site.url}}/img/posts/wavcreator/wavcreator-screenshot.png)
 
-Now I is not hard to imagine that even software like Audacity could be build in a browser. The only think that is lacking right now for WebAudio is the browser support. But it is also getting better with support in Safari & probably Opera (but haven't tested that).
+Now it is not hard to imagine that even software like Audacity could be build in a browser. The only think that is lacking right now for WebAudio is the browser support. But it is also getting better with support in Safari & probably Opera (but haven't tested that).
 
 
 [plunk]: http://run.plnkr.co/plunks/vS2eUt/

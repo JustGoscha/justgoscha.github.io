@@ -12,7 +12,7 @@ tags:
 summary: "How to create AudioBuffers and fill them with your own data. And why it might be useful. Also a little demo application, I made to demonstrate what you can do with it."
 ---
 
-There this great thing in HTML5 called WebAudio API, great for games and audio applications. One great thing about it is that you can create your own wave forms on-the-fly and play them back. This is useful because you don't need to download sounds; instead you can just generate them when they are needed or before the app is started. The applications for this are ranging from games to synthesizers to physical modeling of sound in the browser.
+There is this great thing in HTML5 called WebAudio API, great for games and audio applications. One great thing about it is that you can create your own wave forms on-the-fly and play them back. This is useful because you don't need to download sounds; instead you can just generate them when they are needed or before the app is started. The applications for this are ranging from games to synthesizers to physical modeling of sound in the browser.
 
 Okay enough intro, let's start actually doing it. It's pretty simple. At first you need to get the `AudioContext`, watch out for the browser prefixes:
 
@@ -77,7 +77,7 @@ I also did a little demo application to demonstrate one of many use cases for th
 
 ![WavCreator - Screenshot]({{site.url}}/img/posts/wavcreator/wavcreator-screenshot.png)
 
-Now it is not hard to imagine that even software like Audacity could be build in a browser. The only think that is lacking right now for WebAudio is the browser support. But it is also getting better with support in Safari & probably Opera (but haven't tested that).
+Now it is not hard to imagine that even software like Audacity could be build in a browser. The only thing that is lacking right now for WebAudio is the browser support. But it is also getting better with support in Safari & probably Opera (but haven't tested that).
 
 
 [plunk]: http://run.plnkr.co/plunks/vS2eUt/

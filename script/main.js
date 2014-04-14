@@ -45,7 +45,7 @@ app.factory('Projects', function(){
 		{
 			name: 'WebAudio Binaural Positioning',
 			logo: '/img/projects/webaudio1.png',
-			link: '/experiments/webaudio1/',
+			link: 'http://justgoscha.github.io/binaural-webaudio/',
 			alternative_links: [],
 			images: [],
 			tags: ['audio', 'webaudio', 'javascript'],
@@ -54,7 +54,7 @@ app.factory('Projects', function(){
 		{
 			name: 'WebAudio - Wavegenerator',
 			logo: '/img/projects/wavcreator.png',
-			link: '/experiments/wavcreator/',
+			link: 'http://justgoscha.github.io/wavcreator/',
 			alternative_links: [],
 			images: [],
 			tags: ['audio', 'webaudio', 'html5', 'javascript'],

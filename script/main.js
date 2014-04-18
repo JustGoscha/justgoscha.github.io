@@ -43,6 +43,15 @@ app.factory('Projects', function(){
 			short_description: "An AngularJS directive for autocompletion."
 		},
 		{
+			name: 'Procedural Skyline',
+			logo: '/img/projects/skyline.png',
+			link: 'http://justgoscha.github.io/skyline/',
+			alternative_links: [],
+			images: [],
+			tags: ['gamedev', 'javascript', 'procedural'],
+			short_description: "A procedurally genrated skyline on HTML5 with a parallax effect and a particle effect."
+		},
+		{
 			name: 'WebAudio Binaural Positioning',
 			logo: '/img/projects/webaudio1.png',
 			link: 'http://justgoscha.github.io/binaural-webaudio/',
@@ -66,7 +75,7 @@ app.factory('Projects', function(){
 			link: '/experiments/collision-sat/',
 			alternative_links: [],
 			images: [],
-			tags: ['game-development', 'javascript'],
+			tags: ['gamedev', 'javascript'],
 			short_description: "Collision Detection with the Seperating Axis Theorem in 2D space."
 		}
 	];

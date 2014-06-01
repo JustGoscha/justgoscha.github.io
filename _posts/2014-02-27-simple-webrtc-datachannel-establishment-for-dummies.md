@@ -14,7 +14,7 @@ summary: "As I stumbled through the Internet trying to find any good tutorial fo
 
 ![Data Channel]({{site.url}}/img/posts/datachannel/dc.jpg)
 
-As I stumbled through the Internet trying to find any good tutorial for establishing a DataChannel connection in the Browser, I thought that there were not many good tutorials on this topic. Some old ones, where you didn't knew if they still apply, and some vague ones that were more about P2P video & audio. So I decided to make my own tutorial, just focussing on the DataChannel and make it simple and straight-forward.
+As I stumbled through the Internet trying to find any good tutorial for establishing a DataChannel connection in the Browser, I thought that there were not many good tutorials on this topic. Some old ones, where you didn't knew if they still apply, and some vague ones that were more about P2P video & audio. So I decided to make my own tutorial, just focussing on the DataChannel and make it simple and straight-forward. If you want to jump straight to the a working implementation go to [this link][git].
 
 # Prerequisites
 
@@ -355,6 +355,9 @@ $("#ws-connect").click(function(){
 }
 ```
 
-I hope this helps. I will upload a demo soon to GitHub, if you have any questions just leave a comment below.
+I hope this helps somebody. You can find the implementation of a working example [in this github repository.][git]
+If you have any question, post them in the comments.
+
 
 [source1]: http://vip24.ezday.co.kr/docs/rtc-datachannel-for-beginners.html
+[git]: https://github.com/JustGoscha/simple-datachannel

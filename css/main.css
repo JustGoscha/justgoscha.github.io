@@ -6,7 +6,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
 @import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,400,700);
 
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 100%; 
   line-height: 1.286em;
   margin-top: .286em;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  color: #4C505F;
+  color: #444;
   font-weight: 700;
   font-size: 2em;
   text-rendering: optimizeLegibility;
@@ -47,9 +47,8 @@ h1{
 }
 
 h2{
-  color: #4C505F;  
+  color: #444;  
   font-weight: 400;
-  //font-style: italic;
 
   text-rendering: optimizeLegibility;
 
@@ -80,7 +79,9 @@ ul>li{
   list-style: none;
 }
 
-p { margin: 0 0 1em 0; }
+p { 
+  margin: 0 0 1em 0; 
+}
 
 q { quotes: '\201C' '\201D' '\2018' '\2019'; }
 
@@ -302,6 +303,10 @@ ul.posts span {
   margin-bottom: 0.5rem;
 }
 
+.post-header .post-title{
+  margin-top: 0.286em;
+}
+
 .post-image{
   vertical-align: top;
   display: inline-block;
@@ -356,6 +361,10 @@ li.tag:last-child:after{
   content: ".";
 }
 
+.posts article p{
+  margin-top: 0;
+}
+
 .posts article{
   border-bottom: 0.1em dashed #aaa;
   margin-bottom: 1em;
@@ -397,6 +406,7 @@ li.tag:last-child:after{
 }
 
 .post-header-post h1.post-title{
+  margin-top: 0.286em;
   margin-bottom: 0!!important;
   text-align: center;
   color: #eca;
@@ -418,6 +428,20 @@ article.post{
   margin-bottom: 2em;
 }
 
+article.post{
+
+}
+
+article.post h1,
+article.post h2,
+article.post h3,
+article.post h4,
+article.post h5,
+article.post h6 
+{
+  margin-top: 1.5em;
+  margin-bottom: .286em; 
+}
 
 article.post h1{
   font-size: 1.5em;
@@ -569,7 +593,7 @@ figure figcaption{
 }
 
 .projects .project h1{
-  font-family: "Oswald", serif;
+  font-family: "Raleway", serif;
   font-weight: 700;
 
   display: block;

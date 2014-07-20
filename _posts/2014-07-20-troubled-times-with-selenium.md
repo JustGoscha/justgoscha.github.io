@@ -371,8 +371,6 @@ driver.executeAsyncScript "angular.element([DOM element]).injector().get('$timeo
 
 If you have something to add or correct, please write it in the comments. I'm still fairly new to this area and am eager to learn new things.
 
-[][]
-
 [sel-doc-1]: http://selenium.googlecode.com/git/docs/api/javascript/index.html
 [sel-doc-2]: http://appfigures.github.io/webdriver-js-api-reference/
 [wdriver1]: http://appfigures.github.io/webdriver-js-api-reference/symbols/webdriver.WebDriver.html
@@ -388,6 +386,3 @@ If you have something to add or correct, please write it in the comments. I'm st
 [chromium]: https://download-chromium.appspot.com/
 [stale-el]: http://stackoverflow.com/questions/16166261/selenium-webdriver-stale-element-reference-exception 
 [angular-wait]: http://jiraaya.wordpress.com/2014/03/17/selenium-wait-for-digest-loop-to-complete/
-[]: 
-[]: 
-[]: 

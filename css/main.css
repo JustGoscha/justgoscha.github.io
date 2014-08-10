@@ -495,9 +495,17 @@ pre.terminal code {
   background-color: #333;
 }
 
-.comments{
-  margin-top: 1em;
+.sharing{
+  margin: 0.5em 0 0 0;
+  line-height: 1em;
+  padding: 0.5em 0 0.5em 0;
+  border-top: 4px solid #CD9;
+  border-bottom: 1px solid #eee;
 }
+
+/*.comments{
+  margin-top: 1em;
+}*/
 
 .post .gallery{
   text-align: center;

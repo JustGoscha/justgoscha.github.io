@@ -22,7 +22,7 @@ What sets it apart for me from a "real" IDE is
 
 	Oh yes, this one feels really fresh coming from an IDE like Eclipse. No freezes, fast startup, no fuzz... yeah.
 
-There are more pros, but this is not about convincing somebody, its more about my setup. So I can remember it... when I have to re-install it.
+There are more pros, but this is not about convincing somebody, its more about my setup., so I can remember it when I have to re-install it.
 
 # Plugins/Packages
 

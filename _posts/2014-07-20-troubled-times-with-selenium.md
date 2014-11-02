@@ -160,6 +160,22 @@ Here are some use cases which you might need frequently, but which maybe not tha
 driver.executeScript('return document.location.pathname')
 ```
 
+**Executing JavaScript and getting a value back:**
+
+```coffeescript
+yourAsyncScript = """
+  var callback = arguments[arguments.length - 1];
+  setTimeout(function(){
+    callback("yourReturnValue")
+  }, 5000);
+"""
+# timeout needs to be set or else it will fail
+driver.manage().timeouts().setScriptTimeout(5000, 1) 
+promise = driver.executeAsyncScript(yourAsyncScript);
+promise.then (returnValue)->
+  returnValue.should.equal("yourReturnValue")
+```
+
 **Waiting for a page to load:**
 
 ```coffeescript
@@ -295,7 +311,7 @@ utils.waitVisible(driver,By.css('.info-tag'),10000)
   done()
 ```
 
-**or if you want the with just a substring... of a value for example**
+**or if you want to check with just a substring... of a value for example**
 
 ```coffeescript
 .then (elements)->

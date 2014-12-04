@@ -67,9 +67,9 @@ There are more pros, but this is not about convincing somebody, its more about m
 
 - **[T3S][t3s]:**
 
-	TypeScript support and autocompletion, build tools etc
-	tss and tsc needs to be installed first.
-	...sometimes extremely slow ( when referencing new files, but well it's still better than using Visual Studio, right? *\*just kidding\** )
+	TypeScript support and autocompletion, build tools etc.
+	`tss` and `tsc` need to be installed first.
+	...sometimes extremely slow ( when referencing new files, but well it's still better than using Visual Studio, right? *just kidding* )
 
 	<div class="gallery">
 		<figure class="full">
@@ -81,7 +81,7 @@ There are more pros, but this is not about convincing somebody, its more about m
 
 - **Better Coffeescript:**
 
-	CoffeeScript Syntax and other tools...
+	CoffeeScript Syntax and other tools.
 
 
 - **LESS:**

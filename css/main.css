@@ -89,6 +89,7 @@ q { quotes: '\201C' '\201D' '\2018' '\2019'; }
 a{
   text-decoration: none;
   color: #D84839;
+  /*text-shadow: -1px 1px 1px rgba(10,30,100,0.3);*/
 }
 
 a:hover{
@@ -134,6 +135,7 @@ header{
 }
 
 nav{
+  position: relative;
   font-size: 115%;
   display: block;
   margin:auto;
@@ -147,6 +149,7 @@ nav{
 }
 
 nav a{
+  position: relative;
   font-size: 1.5em;
   text-align: left;
   color: #fff;
@@ -160,6 +163,20 @@ nav a{
 
   transition: background-color 0.3s ease-in-out;  
 
+}
+
+nav a.new:after{
+  border-radius: 1em;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 700;
+  color: #D84839;
+  font-size: 0.35em;
+  content: "new";
+  display: inline-block;
+  /*top: 0.5em;*/
+  position: absolute;
+  padding: 0.2em 0.3em;
+  /*right: 0.3em;*/
 }
 
 nav a:hover{
@@ -178,8 +195,32 @@ nav a:hover{
   #header-bottom{
     height: 1em;
   }
+}
+
+@media only screen and (max-width: 460px) {
+  nav{
+    font-size: 90%;
+    margin-top: 2.4rem;
+  }
+  nav a{
+    padding: 0.2em .6em;
+    padding-bottom: .6em;
+  }
+
+  nav a.new:after{
+    content: "";
+    width: .5em;
+    height: .5em;
+    background-color: #D84839;
+    /*display:none;*/
+  }
+
+  #header-bottom{
+    height: .5em;
+  }
 
 }
+
 
 #logo{
   margin: auto;
@@ -225,7 +266,7 @@ ul.posts span {
 
   padding: 0 1em;
 
-  margin: 0em auto 2em;
+  margin: 1em auto 2em;
   line-height: 1.4em;
 }
 
@@ -469,6 +510,14 @@ pre {
 
 .post ul>li{
   list-style: square;
+}
+
+.post a{
+  border-bottom: 1px solid rgba(200,75,58,0.3);
+}
+
+.post a:hover{
+  border-bottom: 1px solid rgba(20,45,100,0.3);
 }
 
 code {

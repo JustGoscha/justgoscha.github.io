@@ -393,11 +393,18 @@ If you have something to add or correct, please write it in the comments. I'm st
 ### EDIT 27th of April, 2015
 
 
-Here is a nice article I found on avoiding some confusing errors in your Selenium tests:
-[Avoiding Random Failures in Selenium UI Tests][http://bocoup.com/weblog/a-day-at-the-races/]
+Here is a nice article I found on avoiding some confusing errors in your Selenium tests: [Avoiding Random Failures in Selenium UI Tests][avoiding]
+
+And two pages about page objects [here][page-objects] and [there][page-objects2], which can help you organize your page tests.
+
+Also check out general useful tips on [Elemental Selenium][elsel]
 
 I will probably also do a follow up article on some annoying things I dealt with.
 
+[elsel]: http://elementalselenium.com/
+[Avoiding]: http://bocoup.com/weblog/a-day-at-the-races/
+[page-objects]: http://elementalselenium.com/tips/7-use-a-page-object
+[page-objects2]: https://code.google.com/p/selenium/wiki/PageObjects 
 [sel-doc-1]: http://selenium.googlecode.com/git/docs/api/javascript/index.html
 [sel-doc-2]: http://appfigures.github.io/webdriver-js-api-reference/
 [wdriver1]: http://appfigures.github.io/webdriver-js-api-reference/symbols/webdriver.WebDriver.html

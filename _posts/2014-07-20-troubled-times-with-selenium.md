@@ -387,6 +387,17 @@ driver.executeAsyncScript "angular.element([DOM element]).injector().get('$timeo
 
 If you have something to add or correct, please write it in the comments. I'm still fairly new to this area and am eager to learn new things.
 
+
+---
+
+### EDIT 27th of April, 2015
+
+
+Here is a nice article I found on avoiding some confusing errors in your Selenium tests:
+[Avoiding Random Failures in Selenium UI Tests][http://bocoup.com/weblog/a-day-at-the-races/]
+
+I will probably also do a follow up article on some annoying things I dealt with.
+
 [sel-doc-1]: http://selenium.googlecode.com/git/docs/api/javascript/index.html
 [sel-doc-2]: http://appfigures.github.io/webdriver-js-api-reference/
 [wdriver1]: http://appfigures.github.io/webdriver-js-api-reference/symbols/webdriver.WebDriver.html

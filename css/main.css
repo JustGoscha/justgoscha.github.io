@@ -608,6 +608,27 @@ figure figcaption{
 
 }
 
+input.filter{
+  font-size: 1.2em;
+  font-style: italic;
+  padding: .4em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #FAF5E4;
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 0.4em 0 .7em;
+  outline: none;
+}
+
+input.filter:active{
+  background-color: #F2E3D1;
+}
+input.filter:hover{
+  background-color: #F5E7D7;
+}
+
 .projects .project{
   display: block;
   position: relative;
@@ -809,11 +830,18 @@ ul.social:hover{
 .social li{
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 0.7em;
-
-    border-color: #B8B0A1;
-
+  border-color: #B8B0A1;
 
   transition: all 0.3s ease-in-out;  
+}
+
+.social .fa{
+  margin-right: .5em;
+  font-size: 2em;
+  width: 1em;
+  text-align: center;
+  height: 1em;
+
 }
 
 .social li:hover{
@@ -841,9 +869,10 @@ ul.social:hover{
   vertical-align: middle;
   height: 3em;
   width: 3em;
-  margin-right: 0.5em;
+  margin-right: .5em;
   display: inline-block;
 }
+
 
 
 .facebook{

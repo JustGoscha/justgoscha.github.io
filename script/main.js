@@ -5,6 +5,34 @@ app.controller("ProjectCtrl", ["$scope", "Projects", function($scope, Projects){
 	$scope.experiments = Projects.experiments;
 	$scope.work = Projects.work;
 
+	$scope.all = Projects.projects.concat(Projects.experiments.concat(Projects.work))
+
+}]);
+
+app.directive("projects", [ function(){
+	return {
+		restrict: 'E',
+		template: '<section ng-if="projects && projects.length>0" class="projects">' +
+			'	<article class="project" ng-repeat="project in projects | filter: filter">' +
+			'		<div class="logo-wrap">' +
+			'			<a href="{{project.link}}"><img src="{{project.logo}}" alt=""></a>' +
+			'		</div>' +
+			'		<div class="title-wrapper">' +
+			'			<a href="{{project.link}}"><h1 class="title">{{project.name}}</h1></a>' +
+			'			<div class="short-description">' +
+			'				{{project.short_description}}' +
+			'			</div>' +
+			'			<span class="tag" ng-repeat="tag in project.tags">' +
+			'				{{tag}}' +
+			'			</span>' +
+			'		</div>' +
+			'	</article>' +
+			'</section>',
+		scope: {
+			projects: "=data",
+			filter: "=?filter"
+		}
+	};
 }]);
 
 app.factory('Projects', function(){
@@ -33,6 +61,15 @@ app.factory('Projects', function(){
 	];
 
 	Projects.experiments = [
+		{
+			name: '@AnimatorsPal - A Twitter Bot',
+			logo: '/img/projects/animatorspal.jpg',
+			link: 'http://twitter.com/animatorsPal',
+			alternative_links: [],
+			images: [],
+			tags: ['nodejs', 'javascript', 'twitter', 'bot'],
+			short_description: "A Twitter Bot that retweets relevant animation content - Or tries to!"
+		},
 		{
 			name: 'Allmighty-Autocomplete',
 			logo: '/img/projects/autocomplete.png',
@@ -78,6 +115,7 @@ app.factory('Projects', function(){
 			tags: ['gamedev', 'javascript'],
 			short_description: "Collision Detection with the Seperating Axis Theorem in 2D space."
 		}
+
 	];
 
 	Projects.work = [

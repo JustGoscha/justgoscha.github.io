@@ -7,68 +7,27 @@ permalink: /projects.html
 	<h1>Projects</h1>
 
 	An overview of the interesting things I have done so far.
-	<h2>Major Projects</h2>
+	<input type="text" class="filter" ng-model="search" placeholder="Type to filter...">
 
-	Here are the projects I put some effort in and that are (more or less) finished and ready for the public audience.
+	<projects ng-if="search.length>0" data="all" filter="search" ></projects>
+	
+	<div ng-if="!search || search.length==0">
+		<h2>Major Projects</h2>
 
-	<section class="projects">
-		<article class="project" ng-repeat="project in projects">
-			<div class="logo-wrap">
-				<a href="{{'{{project.link'}}}}"><img src="{{'{{project.logo'}}}}" alt=""></a>
-			</div>
-			<div class="title-wrapper">
-				<a href="{{'{{project.link'}}}}"><h1 class="title">{{'{{project.name'}}}}</h1></a>
-				<div class="short-description">
-					{{'{{project.short_description'}}}}
-				</div>
-				<span class="tag" ng-repeat="tag in project.tags">
-					{{'{{tag'}}}}
-				</span>
-			</div>
-		</article>
-	</section>
+		Here are the projects I put some effort in and that are (more or less) finished and ready for the public audience.
 
-	<h2>Experiments &amp; Little Projects</h2>
+		<projects data="projects"></projects>
+		<h2>Experiments &amp; Little Projects</h2>
 
-	Here are the small projects and experiment that didn't take that long, or are just prototypes or tests of further projects.
+		Here are the small projects and experiment that didn't take that long, or are just prototypes or tests of further projects.
 
-	<section class="projects">
-		<article class="project" ng-repeat="project in experiments">
-			<div class="logo-wrap">
-				<a href="{{'{{project.link'}}}}"><img src="{{'{{project.logo'}}}}" alt=""></a>
-			</div>
-			<div class="title-wrapper">
-				<a href="{{'{{project.link'}}}}"><h1 class="title">{{'{{project.name'}}}}</h1></a>
-				<div class="short-description">
-					{{'{{project.short_description'}}}}
-				</div>
-				<span class="tag" ng-repeat="tag in project.tags">
-					{{'{{tag'}}}}
-				</span>
-			</div>
-		</article>
-	</section>
+		<projects data="experiments"></projects>
 
+		<h2>Other Work</h2>
 
-	<h2>Other Work</h2>
+		Work I did on my previous jobs.
 
-	Work I did on my previous jobs.
-
-	<section class="projects">
-		<article class="project" ng-repeat="project in work">
-			<div class="logo-wrap">
-				<a href="{{'{{project.link'}}}}"><img src="{{'{{project.logo'}}}}" alt=""></a>
-			</div>
-			<div class="title-wrapper">
-				<a href="{{'{{project.link'}}}}"><h1 class="title">{{'{{project.name'}}}}</h1></a>
-				<div class="short-description">
-					{{'{{project.short_description'}}}}
-				</div>
-				<span class="tag" ng-repeat="tag in project.tags">
-					{{'{{tag'}}}}
-				</span>
-			</div>
-		</article>
-	</section>
+		<projects data="work"></projects>
+	</div>
 
 </div>

@@ -5,6 +5,7 @@ date: 2014-09-16 22:19:41
 categories: programming
 tags: tools setup ide javascript typescript
 ---
+**\*\* Updated 24th August sudo apt2015 \*\***
 
 Here is the default setup for my favourite editor, [Sublime Text 3][sublime], for web and backend development with NodeJS and most other dynamic languages or shell scripts. I even bought it and haven't regretted this decision. You can also try it out for free for an unlimited amount of time. 
 
@@ -68,7 +69,7 @@ There are more pros, but this is not about convincing somebody, its more about m
 
 	Alternatives are: SublimeCodeIntel and tern\_for\_sublime
 
-- **[T3S][t3s]:**
+- **[ArcticTypescript][arctic]:**
 
 	TypeScript support and autocompletion, build tools etc.
 	`tss` and `tsc` need to be installed first.
@@ -143,7 +144,7 @@ Often it is useful to start Sublime Text from the command line. Especially, if y
 [ternsetup]: http://emmet.io/blog/sublime-tern/ 
 [predawn]: https://github.com/jamiewilson/predawn
 [command-line]: https://www.sublimetext.com/docs/3/osx_command_line.html
-[t3s]: https://github.com/Railk/T3S
+[arctic]: https://github.com/Phaiax/ArcticTypescript
 [ternjs]: https://github.com/emmetio/sublime-tern
 [sidebar]: https://github.com/titoBouzout/SideBarEnhancements
 

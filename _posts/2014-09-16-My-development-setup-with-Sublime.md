@@ -46,6 +46,9 @@ There are more pros, but this is not about convincing somebody, its more about m
 		</figure>
 	</div>
 
+- **Missing Palette Commands: **
+
+	Enables features in the `CMD+SHIFT+P` command palette that are not enabled by default, like `Show Console`.
 
 - **Emmet:**
 

@@ -1,9 +1,15 @@
 var app = angular.module('app', []);
 
-app.controller("ProjectCtrl", ["$scope", "Projects", function($scope, Projects){
+app.controller("ProjectCtrl", ["$scope", "Projects","$timeout", function($scope, Projects, $timeout){
 	$scope.projects = Projects.projects;
 	$scope.experiments = Projects.experiments;
 	$scope.work = Projects.work;
+	$scope.callback = function(newFilter){
+		$timeout(function(){
+			console.log("callback called");
+			$scope.search = newFilter;
+		}, 0);
+	}
 
 	$scope.all = Projects.projects.concat(Projects.experiments.concat(Projects.work))
 
@@ -22,7 +28,7 @@ app.directive("projects", [ function(){
 			'			<div class="short-description">' +
 			'				{{project.short_description}}' +
 			'			</div>' +
-			'			<span class="tag" ng-repeat="tag in project.tags">' +
+			'			<span class="tag" ng-repeat="tag in project.tags" ng-click="callback(tag)">' +
 			'				{{tag}}' +
 			'			</span>' +
 			'		</div>' +
@@ -30,7 +36,12 @@ app.directive("projects", [ function(){
 			'</section>',
 		scope: {
 			projects: "=data",
-			filter: "=?filter"
+			filter: "=?filter",
+			filterChanged: "=filterChanged"
+		},
+		link: function(scope){
+			console.log("Link function, Callback ->" + scope.filterChanged);
+			scope.callback = scope.filterChanged;
 		}
 	};
 }]);

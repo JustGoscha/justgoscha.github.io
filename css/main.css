@@ -702,7 +702,8 @@ input.filter:hover{
 
 .projects .project span.tag{
   font-family: 'Open Sans', Arial, sans-serif;
-
+  cursor: pointer;
+  
   font-size: 0.7em;
   padding: 0 0.5em;
 

@@ -9,25 +9,25 @@ permalink: /projects.html
 	An overview of the interesting things I have done so far.
 	<input type="text" class="filter" ng-model="search" placeholder="Type to filter...">
 
-	<projects ng-if="search.length>0" data="all" filter="search" ></projects>
+	<projects ng-show="search.length>0" data="all" filter="search" filter-changed="callback"></projects>
 	
 	<div ng-if="!search || search.length==0">
 		<h2>Major Projects</h2>
 
 		Here are the projects I put some effort in and that are (more or less) finished and ready for the public audience.
 
-		<projects data="projects"></projects>
+		<projects data="projects" filter-changed="callback"></projects>
 		<h2>Experiments &amp; Little Projects</h2>
 
 		Here are the small projects and experiment that didn't take that long, or are just prototypes or tests of further projects.
 
-		<projects data="experiments"></projects>
+		<projects data="experiments" filter-changed="callback"></projects>
 
 		<h2>Other Work</h2>
 
 		Work I did on my previous jobs.
 
-		<projects data="work"></projects>
+		<projects data="work" filter-changed="callback"></projects>
 	</div>
 
 </div>

@@ -4,4 +4,4 @@ url: http://justgoscha.github.io
 lsi: false
 baseurl: /
 markdown: redcarpet
-pygments: true
+highlighter: pygments

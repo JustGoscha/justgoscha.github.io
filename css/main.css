@@ -865,7 +865,9 @@ ul.social:hover{
 .soundcloud,
 .gittip,
 .flattr,
-.reddit{
+.reddit,
+.tumblr,
+.medium{
   background-size: contain;
   vertical-align: middle;
   height: 3em;
@@ -878,6 +880,12 @@ ul.social:hover{
 
 .facebook{
   background-image: url('/img/icons/facebook.png');
+}
+.tumblr{
+  background-image: url('/img/icons/tumblr-icon.jpg');
+}
+.medium{
+  background-image: url('/img/icons/medium-icon.jpg');
 }
 .twitter{
   background-image: url('/img/icons/twitter.png');

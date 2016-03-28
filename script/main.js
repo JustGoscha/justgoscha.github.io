@@ -52,6 +52,15 @@ app.factory('Projects', function(){
 
 	Projects.projects = [
 		{
+			name: '#100DaysOfWalkcycles',
+			logo: '/img/projects/100walkcycles.jpg',
+			link: 'https://medium.com/@justgoscha/100daysofwalkcycles-134ae1ca91ac#.rxhskx76r',
+			alternative_links: [],
+			images: [],
+			tags: ['animation','writing'],
+			short_description: "100 Walkcycles in 100 days. Selling on Gumroad!"
+		},
+		{
 			name: 'WatchNext',
 			logo: '/img/projects/watchnext-logo.png',
 			link: 'http://watch-next.herokuapp.com',

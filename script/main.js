@@ -142,7 +142,7 @@ app.factory('Projects', function(){
 		{
 			name: 'FOKUS WebRTC Telco Stack',
 			logo: '/img/projects/webrtc.jpg',
-			link: 'http://www.fokus.fraunhofer.de/en/fokus_testbeds/sc-playground/Software/webrtc_telco_stack/index.html',
+			link: 'https://www.youtube.com/watch?v=LgniuJ-En7g',
 			alternative_links: [],
 			images: [],
 			tags: ['webrtc', 'angularjs', 'html', 'javascript'],

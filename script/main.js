@@ -134,6 +134,15 @@ app.factory('Projects', function(){
 			images: [],
 			tags: ['gamedev', 'javascript'],
 			short_description: "Collision Detection with the Seperating Axis Theorem in 2D space."
+		},
+    {
+			name: 'Blank Page',
+			logo: '/img/projects/blankpage.jpg',
+			link: 'https://github.com/JustGoscha/blank-page',
+			alternative_links: [],
+			images: [],
+			tags: ['gamedev', 'javascript', 'es6','typography'],
+			short_description: "An interactive story language & engine, for the web"
 		}
 
 	];

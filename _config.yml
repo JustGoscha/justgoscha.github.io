@@ -3,5 +3,5 @@ description: "A blog about programming, illustration, game development, animatio
 url: http://justgoscha.github.io
 lsi: false
 baseurl: /
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge

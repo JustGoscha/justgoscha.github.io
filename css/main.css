@@ -5,8 +5,7 @@
 /*****************************************************************************/
 
 @import url(//fonts.googleapis.com/css?family=Amatic+SC:400);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
-@import url(//fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(//fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic);
 @import url(//fonts.googleapis.com/css?family=Alegreya:400italic,400,700);
 
 
@@ -31,7 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 100%; 
   line-height: 1.286em;
   margin-top: .286em;
@@ -40,14 +39,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
   color: #444;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 2em;
   text-rendering: optimizeLegibility;
 
 }
 
 h2{
-  color: #444;  
+  color: #444;
   font-weight: 400;
 
   text-rendering: optimizeLegibility;
@@ -167,7 +166,7 @@ nav a{
 
 nav a.new:after{
   border-radius: 1em;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-weight: 700;
   color: #D84839;
   font-size: 0.35em;
@@ -351,6 +350,7 @@ ul.posts span {
 .post-image{
   vertical-align: top;
   display: inline-block;
+  padding: 0 10px 0 0;
   width: 20%;
   height: 100%;
 
@@ -373,6 +373,7 @@ ul.posts span {
   font-variant: small-caps;
   font-size: 1.3em;
   line-height: 1.3em;
+  letter-spacing: -0.1em;
   font-weight: 700;
 }
 
@@ -450,11 +451,11 @@ li.tag:last-child:after{
   margin-top: 0.286em;
   margin-bottom: 0!!important;
   text-align: center;
-  color: #eca;
-  text-shadow:  0 0.05em #6B6980,
-                0 0.10em #6B6980,
-                0 0.15em #6B6980,
-                0 0.20em 0.2em #6B6980;
+  color: #444;
+  // text-shadow:  0 0.05em #6B6980,
+  //               0 0.10em #6B6980,
+  //               0 0.15em #6B6980,
+  //               0 0.20em 0.2em #6B6980;
 
   font-size: 2.5em;
 }
@@ -674,7 +675,7 @@ input.filter:hover{
 }
 
 .projects .project h1{
-  font-family: "Raleway", serif;
+  font-family: "Lato", serif;
   font-weight: 700;
 
   display: block;
@@ -701,7 +702,7 @@ input.filter:hover{
 }
 
 .projects .project span.tag{
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   cursor: pointer;
   
   font-size: 0.7em;
@@ -803,7 +804,7 @@ input.filter:hover{
   font-size: 1.2rem;
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.2rem;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
 }
 
 ul.social{
@@ -829,7 +830,7 @@ ul.social:hover{
 }
 
 .social li{
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-size: 0.7em;
   border-color: #B8B0A1;
 
@@ -950,7 +951,7 @@ ul.social:hover{
     position: absolute;
     z-index: 98;
     min-width: 10em;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
 
 }
 

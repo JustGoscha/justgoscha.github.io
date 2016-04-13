@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Testing ES6 Modules with Mocha and CoffeeScript"
-date:   2016-04-11 11:13:02
+date: 2016-04-11 11:13:02
 categories: programming
 tags:
 - testing

@@ -57,7 +57,7 @@ app.factory('Projects', function(){
 			link: 'https://medium.com/@justgoscha/100daysofwalkcycles-134ae1ca91ac#.rxhskx76r',
 			alternative_links: [],
 			images: [],
-			tags: ['animation','writing'],
+			tags: ['animation','writing', 'motion design'],
 			short_description: "100 Walkcycles in 100 days. Selling on Gumroad!"
 		},
 		{

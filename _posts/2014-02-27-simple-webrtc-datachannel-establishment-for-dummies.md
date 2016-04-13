@@ -123,10 +123,11 @@ The answerer waits for incoming offer. When an offer arrives he first does the s
 
 
 ### Step 1-2
-#### Create PeerConnection with connection and config parameters
-##### Set PeerConnection onIceCandidate event handler
-#### Create DataChannel
-##### Set DataChannel event handling.
+
+1. Create PeerConnection with connection and config parameters
+- Set PeerConnection onIceCandidate event handler
+2. Create DataChannel
+- Set DataChannel event handling.
 
 
 ```javascript
@@ -266,12 +267,14 @@ datachannel opens         |                 |datachannel opens
 ```
 
 -------------------------------------------------------------------------------
+
 # Don't get it? Don't panic.
 
 So if this guide didn't help you, [try this one][source1]. 
 There are tons of tutorials out there how to setup WebRTC PeerConnections or DataChannels. I had to read through tons of tutorials to get it. And then the one above helped me, but I decided to do one for myself, to remind me how it works, because in about a week I'll probably forget. 
 
 -------------------------------------------------------------------------------
+
 # APPENDIX: The Protocol and Signaling
 
 I didn't specifically described yet what `sendNegotiation()` does, what protocol I'm using and what signaling channel. Mainly this is because the tutorial should be simply to provide an overview of the DataChannel initialization, because the other thing already seemed trivial.

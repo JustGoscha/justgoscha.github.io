@@ -373,7 +373,7 @@ ul.posts span {
   font-variant: small-caps;
   font-size: 1.3em;
   line-height: 1.3em;
-  letter-spacing: -0.1em;
+  letter-spacing: 0em;
   font-weight: 700;
 }
 

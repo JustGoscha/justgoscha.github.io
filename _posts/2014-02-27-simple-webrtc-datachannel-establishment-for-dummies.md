@@ -11,6 +11,7 @@ tags:
 - web-development
 summary: "As I stumbled through the Internet trying to find any good tutorial for establishing a DataChannel connection in the Browser, I thought that there were not many good tutorials on this topic. Some old ones, where you didn't knew if they still apply, and some vague ones that were more about P2P video & audio. So I decided to make my own tutorial, just focussing on the DataChannel and make it simple and straight-forward."
 ---
+**UPDATE** 2017-01-01: I updated the code to work with the newest specifications in the [github repository][git], so it still works in the newest Chrome (I haven't tested Firefox, probably doesn't). The details in this post are no longer accurate. Although, the overall procedure is still the same.
 
 ![Data Channel]({{site.url}}/img/posts/datachannel/dc.jpg)
 

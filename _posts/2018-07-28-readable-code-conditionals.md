@@ -31,7 +31,7 @@ function driveCar(person) {
 }
 ```
 
-In the above example. No problem at all. Code is still readable. But usually that's not how code in real world applications looks like. It gets messy quite fast and before you know it, you have a bunch of conditions in one statement, that you cannot decipher one month later. 
+In the above example. No problem at all. Code is still readable. But usually that's not how code in real world applications looks like. It gets messy quite fast and before you know it. You end up with a bunch of conditions in one statement, where everybody has to stop and think every time they stumble over it. 
 
 ### More complex example
 

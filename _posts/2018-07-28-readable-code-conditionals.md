@@ -139,7 +139,7 @@ Now we removed the comments and instead the variable naming acts as our comment.
 
 You can argue that we could have again put every check into it's own function and it might even make sense, but sometimes if it's a one of check, I prefer to go with comprehensive variable naming.
 
-### Step 3 - More abstraction
+### Step 3: More abstraction
 
 But let's do one last change, we can at least seperate the license checking from the country restrictions checking:
 

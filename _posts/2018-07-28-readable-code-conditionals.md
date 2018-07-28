@@ -9,7 +9,7 @@ tags:
 - code-reviews
 ---
 
-Welcome to this series of articles concerned with the topic "Readable Code". Here articles will be shared desscribing patterns discovered over the years that help to write readable and maintainable code. The code examples will be written mostly in JavaScript but they can be easily applied to most languages. 
+Welcome to this series of articles concerned with the topic "Readable Code". Here I will share articles describing patterns discovered over the years that helped me write more readable and maintainable code. The code examples will be written mostly in JavaScript but they can be easily applied to most languages. 
 
 In this article I want to present how conditional statements can be written in a comprehensible way. 
 

@@ -354,7 +354,6 @@ ul.posts span {
   width: 20%;
   height: 100%;
 
-  //background-image: url(/img/placeholder.png);
   background-size: cover;
 }
 
@@ -373,7 +372,7 @@ ul.posts span {
   font-variant: small-caps;
   font-size: 1.3em;
   line-height: 1.3em;
-  letter-spacing: -0.1em;
+  letter-spacing: -0.01em;
   font-weight: 700;
 }
 
